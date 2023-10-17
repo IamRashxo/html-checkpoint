@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 60px;
+    text-align: center;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    height: 100%;
+    align-items: center;
+    padding: 0 40px;
+}
+ul{
+    display: flex;
+}
+li{
+    margin-left: 20px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+section{
+    margin-top: 40px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: repeat(5, 200px);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content:
+}
+.image-wrapper{
+    width: 90%;
+}
+.box1{
+    
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-image: url("./9.\ DeLorean-Alpha-5\ [DeLorean].webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: end;
+    text-decoration: underline;
+    text-align: start;
+}
+   @media(min-width:576px) and (max-width:992px){}
+
+.box2{
+    background-color: goldenrod;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 8;
+    background-image: url(./tata-avinya-concept-16512153543x2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    image-resolution: 50px;
+    justify-content: center;
+    background: image 2px;
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+background-color: greenyellow;
+}
+.box5{
+    background-color: aqua;
+}
+.box6{
+    background-color: cadetblue;
+}
+.box7{
+    background-color: chocolate;
+}
+.box8{
+    background-color: blueviolet;
+}
+.box9{
+    background-color: brown;
+}
+.box10{
+    background-color: darkcyan;
+}
